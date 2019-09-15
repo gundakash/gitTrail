@@ -35,7 +35,6 @@ jobs:
           command: |
             echo "Hello the current build number is ${CIRCLE_BUILD_NUM}"
             pwd
-  	    echo "zip artifact here"
             ls -al
             pwd
             cd ..
